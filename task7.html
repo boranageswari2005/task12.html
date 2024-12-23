@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel card glow effect</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: white;
+        }
+        .card-container{
+            display: flex;
+            gap: 20px;
+        }
+        .card{
+            background: pink;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+           
+            
+        }
+        .card:hover {
+            transform: translateY(-10px);
+              box-shadow: 0 0 15px 5px blue;
+}
+      .card h3 {
+           margin: 0 0 10px;
+           color: #333;
+}
+    .card p {
+         color: #555;
+}
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <h3><b>Paris</b></h3>
+            <p>Experience the beauty of paris with exclusive deals.</p>
+        </div>
+        <div class="card">
+            <h3><b>Maldives</b></h3>
+            <p>Relaxne beaches of meldives. on the pristi</p>
+        </div>
+        <div class="card">
+            <h3><b>Tokyo</b></h3>
+            <p>Explore the vibrate culture of tokyo.</p>
+        </div>
+    </div>
+</body>
+</html>
